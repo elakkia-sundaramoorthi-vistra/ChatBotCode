@@ -6,7 +6,7 @@ on:
       project-path:
         required: true
         type: string
-        description: './ChatBotCode/'
+        description: 
 
 jobs:
   build:
