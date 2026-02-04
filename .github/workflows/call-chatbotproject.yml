@@ -2,8 +2,9 @@ name: Build Project ChatBot
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
     paths:
       - 'ChatBot/**' # Trigger only for changes in Project A's directory
   workflow_dispatch: # Allows manual triggering
